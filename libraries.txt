@@ -1,0 +1,13 @@
+shiny
+semantic.dashboard
+shiny.semantic
+car
+highcharter
+stargazer
+dplyr
+tidyr
+purrr
+forecast
+lubridate
+broom
+openxlsx
