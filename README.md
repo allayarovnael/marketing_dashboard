@@ -1,47 +1,43 @@
 # Marketing Mix Analysis Dashboard 
-TODO: add description
+The following app is written in R and uses R Shiny frontend to demonstrate the typical outputs of a marketing-mix-modeling project. 
 
-## Introduction
- [HuggingFace spaces](https://huggingface.co/spaces/allayarovnael/marketing_app)
+## Depolyed version
+This app was wrapped into Docker container and deploed using [HuggingFace spaces](https://huggingface.co/spaces/allayarovnael/marketing_app).
 
 ## Features
 <ul>
-<li>Feature 1.</li>
-<li>Feature 2.</li>
-<li>Feature 3.</li>
-<li>Feature 4.</li>
+  <li>Model fit:
+  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/model_fit.png "model_fit")
+  </li>
+  
+  <li>Visualization of impacts:
+  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/impacts.png "impacts")
+  </li>
+  
+  <li>Media adstock effects: carry-over and saturation:
+  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/media_adstock.png "media_adstock")
+  </li>
+
+  <li>Model disgnostics: check of multicollinearity, autocorrealtion, normality and homoscedacity of residulas:
+  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/diagnostics.png "diagnostics")
+  </li>
 </ul>
 
 ## Requirements
+R libraries:
 <ul>
-<li>R.</li>
-<li>Libraries: 'shiny', 'semantic.dashboard','shiny.semantic','car','highcharter','stargazer','dplyr','tidyr','purrr','forecast','lubridate','broom','openxlsx'.</li>
+<li>shiny</li>
+<li>semantic.dashboard</li>
+<li>shiny.semantic</li>
+<li>car</li>
+<li>highcharter</li>
+<li>stargazer</li>
+<li>dplyr</li>
+<li>tidyr</li>
+<li>purrr</li>
+<li>forecast</li>
+<li>lubridate</li>
+<li>broom</li>
+<li>openxlsx</li>
 </ul>
 
-
-## Function Descriptions
-<ul>
-<li>Funcion 1.</li>
-<li>Funcion 2.</li>
-<li>Funcion 3.</li>
-<li>Funcion 4.</li>
-</ul>
-
-
-## Data Structure
-<ul>
-<li>XXX.</li>
-<li>YYY.</li>
-</ul>
-
-
-## Output foramt
-The final output has the following form:
-
-![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/model_fit.png "model_fit")
-
-![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/impacts.png "impacts")
-
-![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/media_adstock.png "media_adstock")
-
-![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/diagnostics.png "diagnostics")
