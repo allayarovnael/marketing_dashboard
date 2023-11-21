@@ -5,23 +5,23 @@ The following app is written in R and uses R Shiny frontend to demonstrate the t
 This app was wrapped into Docker container and deploed using [HuggingFace spaces](https://huggingface.co/spaces/allayarovnael/marketing_app).
 
 ## Features
-<ul>
-  <li>Model fit:
-  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/model_fit.png "model_fit")
-  </li>
-  
-  <li>Visualization of impacts:
-  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/impacts.png "impacts")
-  </li>
-  
-  <li>Media adstock effects: carry-over and saturation:
-  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/media_adstock.png "media_adstock")
-  </li>
 
-  <li>Model disgnostics: check of multicollinearity, autocorrealtion, normality and homoscedacity of residulas:
-  ![alt text](https://github.com/allayarovnael/marketing_dashboard/blob/main/images/diagnostics.png "diagnostics")
-  </li>
-</ul>
+
+#### Model fit:
+<img src="https://github.com/allayarovnael/marketing_dashboard/blob/main/images/model_fit.png">
+
+
+#### Visualization of impacts:
+<img src="https://github.com/allayarovnael/marketing_dashboard/blob/main/images/impacts.png">
+
+
+#### Media adstock effects: carry-over and saturation:
+<img src="https://github.com/allayarovnael/marketing_dashboard/blob/main/images/media_adstock.png">
+
+
+#### Model disgnostics: check of multicollinearity, autocorrealtion, normality and homoscedacity of residulas:
+<img src="https://github.com/allayarovnael/marketing_dashboard/blob/main/images/diagnostics.png">
+
 
 ## Requirements
 R libraries:
